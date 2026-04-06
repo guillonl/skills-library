@@ -1,16 +1,11 @@
 ---
 name: Typeset
 description: Improves typography by fixing font choices, hierarchy, sizing, weight, and readability
-tags: [typography, design]
-author: Superpowers
-date: 2026-03-15
+tags: [typography, fonts, readability]
+author: Impeccable
+date: 2026-04-06
 color: green
+source_url: https://impeccable.style/
 ---
 
-Audit the typographic system: check font pairing coherence, size scale consistency, weight distribution, and line-height/letter-spacing values. A well-set interface uses no more than 2-3 font families with a clear purpose for each.
-
-Establish a modular type scale (e.g., 1.25 or 1.333 ratio) and apply it consistently. Headlines should create clear hierarchy — each level must be visually distinct without relying solely on bold weight. Use size, weight, color, and spacing together.
-
-Optimize readability: body text at 16-18px minimum, line-height at 1.5-1.7 for paragraphs, max line length of 65-75 characters. Avoid center-aligned body text and ensure sufficient contrast between text and background.
-
-Verify font loading strategy (font-display: swap), subset fonts for performance, and test rendering across OS/browser combinations. Typography should feel intentional, not incidental.
+Evaluate every typographic decision in the interface -- font families, size scale, weight distribution, line height, letter spacing, and measure (line length). Establish a clear hierarchy where headings, body text, labels, and captions each have a distinct and purposeful role. Fix common issues like insufficient contrast between heading levels, cramped line heights, overly wide text columns, and inconsistent weight usage. Typography should feel intentional, readable, and quietly confident.

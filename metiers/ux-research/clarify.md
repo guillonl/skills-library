@@ -2,15 +2,10 @@
 name: Clarify
 description: Improve unclear UX copy, error messages, microcopy, labels and instructions
 tags: [ux, copy, content]
-author: Superpowers
-date: 2026-03-15
+author: Impeccable
+date: 2026-04-06
 color: blue
+source_url: https://impeccable.style/
 ---
 
-Audit all user-facing text for clarity, consistency, and helpfulness. Focus on: button labels (use specific verbs over generic ones), form labels (unambiguous field names), error messages (explain what happened and how to fix it), empty states (guide next action), and tooltips (add context without clutter).
-
-Apply the clarity hierarchy: what happened > why it matters > what to do next. Every message should pass the "stranger test" — would someone unfamiliar with the product understand it immediately?
-
-Eliminate jargon, internal terminology, and ambiguous pronouns. Use active voice, present tense, and second person ("You" not "The user"). Keep sentences under 20 words for instructional text.
-
-Maintain a consistent tone across all touchpoints. Create a microcopy style guide if one does not exist: define voice attributes (e.g., helpful, direct, warm), banned words, and patterns for common message types (confirmation, error, loading, success).
+Review all user-facing text in the interface -- button labels, form instructions, error messages, empty states, tooltips, and onboarding copy. Identify text that is vague, technical, anxiety-inducing, or unhelpful. Rewrite it to be clear, concise, and human. Error messages should explain what happened and what to do next. Labels should be unambiguous. Instructions should be scannable. Every piece of copy should reduce cognitive load and build user confidence.

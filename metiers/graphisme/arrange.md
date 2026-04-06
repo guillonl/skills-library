@@ -1,16 +1,11 @@
 ---
 name: Arrange
 description: Improve layout, spacing, and visual rhythm for better visual hierarchy
-tags: [layout, spacing, design]
-author: Superpowers
-date: 2026-03-15
+tags: [layout, spacing, grid]
+author: Impeccable
+date: 2026-04-06
 color: teal
+source_url: https://impeccable.style/
 ---
 
-Analyze the current layout for spacing inconsistencies, alignment issues, and weak visual grouping. Apply Gestalt principles: proximity groups related items, alignment creates order, and consistent spacing establishes rhythm.
-
-Use an 8px base grid for all spacing decisions. Define a spacing scale (4, 8, 12, 16, 24, 32, 48, 64, 96) and apply it rigorously. Larger gaps between sections, tighter gaps within groups. White space is not wasted space — it is a structural element.
-
-Fix layout monotony by varying content density across sections. Alternate between full-width, constrained, and multi-column layouts. Use CSS Grid for two-dimensional layouts and Flexbox for one-dimensional alignment.
-
-Validate layout at all breakpoints. Ensure touch targets are minimum 44x44px on mobile. Check that the visual hierarchy guides the eye in the correct reading order (F-pattern for content, Z-pattern for landing pages).
+Analyze the spatial relationships between all elements in the interface. Establish consistent spacing rhythms using a defined scale, fix alignment inconsistencies, and create clear visual groupings through proximity and whitespace. Address monotonous grids by introducing variation in column widths, section heights, and content density. The layout should guide the eye naturally through the content hierarchy, with breathing room that makes the interface feel organized and intentional.

@@ -1,16 +1,11 @@
 ---
 name: Adapt
 description: Adapt designs across screen sizes, devices, and platforms with breakpoints and fluid layouts
-tags: [responsive, design, layout]
-author: Superpowers
-date: 2026-03-15
+tags: [responsive, breakpoints, devices]
+author: Impeccable
+date: 2026-04-06
 color: teal
+source_url: https://impeccable.style/
 ---
 
-Audit the current design for responsive behavior across five breakpoints: mobile (320-480px), tablet portrait (481-768px), tablet landscape (769-1024px), desktop (1025-1440px), and large screens (1441px+). Identify elements that break, overflow, or lose usability at each threshold.
-
-Use fluid design techniques: clamp() for typography and spacing, min()/max() for container widths, and CSS Grid auto-fit/auto-fill for adaptive column layouts. Minimize hard breakpoints by designing fluid-first.
-
-Adapt interaction patterns per device: swipe gestures on touch, hover states on pointer, keyboard navigation on desktop. Ensure touch targets are minimum 44x44px and interactive elements have adequate spacing to prevent accidental taps.
-
-Test on real devices when possible, and use browser device emulation as a baseline. Validate that content reflow preserves reading order, navigation remains accessible, and no horizontal scrolling occurs at any viewport width.
+Evaluate the interface across all target screen sizes and input methods -- mobile, tablet, desktop, and large displays. Implement fluid layouts using relative units, container queries, and well-placed breakpoints. Ensure touch targets meet minimum sizes on mobile, navigation patterns adapt appropriately, and content reflows without losing hierarchy or readability. Test edge cases like landscape orientation, split-screen mode, and ultra-wide displays. The experience should feel intentionally designed for each context, not merely squeezed to fit.
