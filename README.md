@@ -3,16 +3,30 @@
 Bibliothèque partagée de skills Claude Code pour l'équipe.
 Connectée au [Skills Hub](https://skills-hub.vercel.app) — chaque skill ajouté ici apparaît automatiquement sur la plateforme.
 
+> **Important** : Pour que les skills que tu ajoutes apparaissent sur le site, assure-toi d'être connecté à ce repo GitHub. Si tu utilises Claude Code, connecte ce repo pour pouvoir y pousser des skills.
+
+---
+
+## Installer un skill
+
+Pour installer un skill depuis cette bibliothèque dans ton Claude Code :
+
+```bash
+curl -sL https://raw.githubusercontent.com/guillonl/skills-library/main/metiers/design-ui/bolder.md -o ~/.claude/skills/bolder.md
+```
+
+Remplace le chemin par le skill voulu. Tu trouveras la commande exacte sur le [Skills Hub](https://skills-hub.vercel.app).
+
 ---
 
 ## Ajouter un skill
 
 ### Option 1 : Avec Claude Code (recommandé)
 
-Installe ce skill dans Claude Code :
+Installe le skill "add-skill" dans Claude Code :
 
-```
-claude skill install github.com/guillonl/skills-library/skills/add-skill
+```bash
+curl -sL https://raw.githubusercontent.com/guillonl/skills-library/main/skills/add-skill.md -o ~/.claude/skills/add-skill.md
 ```
 
 Ensuite, dis simplement à Claude :
